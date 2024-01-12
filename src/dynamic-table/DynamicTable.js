@@ -7,7 +7,7 @@ function DynamicTable(){
 
  // get table heading data
  const ThData =()=>{
-    
+     
      return column.map((data)=>{
          return <th key={data}>{data}</th>
      })
@@ -29,7 +29,7 @@ const tdData =() =>{
      })
 }
 
-
+ 
   return (
       <table className="table">
         <thead>
